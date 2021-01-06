@@ -1,0 +1,287 @@
+<!doctype html>
+<html>
+ <head>
+  <title> tazos </title>
+  <style>
+
+   body{
+   text-align: center;
+   font-family: Arial;
+   background-color: #4b0082;
+   }
+
+   h1{
+   font-size: 250%;
+   color: #9370db;
+   transition: 1s;
+   }
+
+   h1:hover{
+   text-shadow: 10px 10px 10px #add8e6;
+   transition: 1s;
+   }
+
+   ul{
+   list-style: none;
+   background-color: #2f4f4f;
+   transition: 0.5s;
+   }
+
+   ul li{
+   width: 500px;
+   height: 500px;
+   border: 3px solid #ffffff;
+   border-radius: 300px;
+   background-color: #000000;
+   margin-left: 400px;
+   overflow: hidden;
+   transition: 0.5s;
+   }
+
+   ul li:hover{
+   box-shadow: 5px 5px 5px #c0c0c0, inset 2px 2px 2px 2px #c0c0c0;
+   transition: 1s;
+   }
+
+   .fant1{
+   width: 90px;
+   height: 420px;
+   border: 5px solid #ee82ee;
+   border-radius: 100px;
+   text-align: center;
+   background-color: #ff00ff;
+   margin-top: -50px;
+   margin-left: 70px;
+   transition: 1s;
+   }
+
+   ul li:hover .pup{
+   margin-top: -50px;
+   transition: 1s;
+   }
+
+   ul li:hover .olhos2{
+   margin-top: -40px;
+   }
+
+   ul li:hover .pup2{
+   margin-top: -50px;
+   transition: 1s;
+   }
+
+   ul li .fant1:hover .pup{
+   margin-top: -55px;
+   transition: 1s;
+   }
+
+   ul li .fant1:hover .olhos2{
+   margin-top: -40px;
+   }
+
+   ul li .fant1:hover .pup2{
+   margin-top: -55px;
+   transition: 1s;
+   }
+
+   .fant2{
+   width: 90px;
+   height: 300px;
+   border: 5px solid #ff7f50;
+   border-radius: 100px;
+   text-align: center;
+   background-color: #ff4500;
+   margin-top: -300px;
+   margin-left: 165px;
+   }
+
+   ul li .fant2:hover .pup{
+   margin-left: -0.5px;
+   transition: 1s;
+   }
+
+   ul li .fant2:hover .olhos2{
+   margin-top: -40px;
+   }
+
+   ul li .fant2:hover .pup2{
+   margin-left: 30px;
+   transition: 1s;
+   }
+
+   .fant3{
+   width: 90px;
+   height: 360px;
+   border: 5px solid #ff6347;
+   border-radius: 100px;
+   text-align: center;
+   background-color: #ff0000;
+   margin-top: -400px;
+   margin-left: 260px;
+   }
+
+   ul li .fant3:hover .pup{
+   margin-left: 20px;
+   transition: 1s;
+   }
+
+   ul li .fant3:hover .olhos2{
+   margin-top: -40px;
+   }
+
+   ul li .fant3:hover .pup2{
+   margin-left: 50px;
+   transition: 1s;
+   }
+
+   .fant4{
+   width: 90px;
+   height: 250px;
+   border: 5px solid #00ced1;
+   border-radius: 100px;
+   text-align: center;
+   background-color: #00ffff;
+   margin-top: -270px;
+   margin-left: 355px;
+   }
+
+   ul li .fant4:hover .pup{
+   margin-top: -40px;
+   transition: 1s;
+   }
+
+   ul li .fant4:hover .olhos2{
+   margin-top: -50px;
+   }
+
+   ul li .fant4:hover .pup2{
+   margin-top: -40px;
+   transition: 1s;
+   }
+
+   .olhos{
+   width: 30px;
+   height: 30px;
+   background-color: #ffffff;
+   border: 1px solid #c0c0c0;
+   border-radius: 100px;
+   text-align: center;
+   }
+
+   .olhos2{
+   width: 30px;
+   height: 30px;
+   background-color: #ffffff;
+   border: 1px solid #c0c0c0;
+   border-radius: 100px;
+   text-align: center;
+   margin-top: -48px;
+   margin-left: 30px;
+   }
+
+   .pup{
+   width: 10px;
+   height: 10px;
+   background-color: #0000ff;
+   border: 1px solid #4b0082;
+   border-radius: 100px;
+   text-align: center;
+   margin-top: -45px;
+   margin-left: 10px;
+   }
+
+   .pup2{
+   width: 10px;
+   height: 10px;
+   background-color: #0000ff;
+   border: 1px solid #4b0082;
+   border-radius: 100px;
+   text-align: center;
+   margin-top: -45px;
+   margin-left: 40px;
+   }
+
+   .pac-man{
+   width: 90px;
+   height: 90px;
+   background-color: #ffff00;
+   border: 0px solid #ffd700;
+   border-radius: 100px;
+   margin-left: 200px;
+   margin-top: 50px;
+   overflow: hidden;
+   }
+
+   .pac-boca{
+    background-color: #000000;
+    width: 100px;
+    height: 100px;
+    clip-path: polygon(100% 74%, 44% 48%, 100% 21%);
+    transform: rotate(-90deg) translate(6px, 0px);
+    transition: 1s;
+    }
+
+    ul li:hover .pac-boca{
+    margin-top: -10px;
+    transition: 1s;
+    }
+
+    .pac-boca:hover{
+    margin-top: 30px;
+    transition: 1s;
+    }
+
+  </style>
+ </head>
+ <body>
+
+  <h1> Tazo interativo </h1>
+
+  <ul>
+   <li>
+
+    <div class="pac-man">
+    <div class="pac-boca"> </div>
+    </div>
+
+    <h2 class="fant1" class="olhos">
+     <p class="olhos"> 
+      <p class="pup">  </p>
+     </p>
+      <p class="olhos2">
+      <p class="pup2">  </p>
+     </p>
+     
+    </h2>
+
+    <h2 class="fant2">
+     <p class="olhos">
+      <p class="pup">  </p>
+     </p>
+      <p class="olhos2">
+       <p class="pup2">  </p>
+      </p>
+    </h2>
+
+    <h2 class="fant3">
+     <p class="olhos">
+      <p class="pup">  </p>
+     </p>
+      <p class="olhos2">
+       <p class="pup2">  </p>
+      </p>
+    </h2>
+
+    <h2 class="fant4">
+     <p class="olhos">
+      <p class="pup">  </p>
+     </p>
+      <p class="olhos2">
+       <p class="pup2">  </p>
+      </p>
+    </h2>
+
+   </li>
+  </ul>
+
+ </body>
+</html>
