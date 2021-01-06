@@ -1,5 +1,3 @@
-# tazos
-:bulb:tazo
 <!doctype html>
 <html>
  <head>
